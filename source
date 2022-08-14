@@ -75,7 +75,7 @@ Window:AddBind({
 })
 Window:AddSlider({
     text = 'Interval',
-    min = 0.01,
+    min = 0.00001,
     max = 4,
     value = 1,
     float = 0.01
